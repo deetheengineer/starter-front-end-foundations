@@ -22,6 +22,41 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-    </header>
-  </body>
+    </header> 
+
+    <form> 
+      <div> 
+        <label for="name">Full name:</label>
+        <input id="name" type="text" name="name" />
+      </div> 
+      <div> 
+        <label for="location">Zipcode:</label>
+        <input 
+        id="location"
+        type="text"
+        name="zipcode"
+        autofocus="on"
+        maxlength="5"
+        required 
+        />
+      </div> 
+      <div> 
+        <label for="form-message">Your message:</label>
+        <textarea 
+        id="form-message"
+        name="message"
+        autofocus="on"
+        required 
+        maxlength="200"
+        ></textarea> 
+      </div> 
+
+      <div> 
+        <button type="submit">Submit</button> 
+        <button type="rest">Reset</button>
+      </div>
+
+    </form>
+  </body> 
+  
 </html>
