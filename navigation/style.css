@@ -51,6 +51,6 @@ header nav ul li:last-child a {
   } 
 
   header nav ul li a:hover { 
-    color: #bdbdbd;
+    color: green;
   }
 }
